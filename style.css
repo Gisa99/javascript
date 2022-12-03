@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to right, rgba(128, 0, 128, 0.678), rgba(71, 230, 190, 0.678));
+}
+body > h1{
+ color:rgb(143, 51, 143);
+ text-shadow: 1px 1px 1px rgba(7, 1, 1, 0.623);
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 3em;
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+main{
+    width: 700px;
+    height: 700px;
+    margin-top: 20px;
+    background-color: rgb(246, 250, 208);
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    
+}
+
+main > div#perfil {
+    width: 50%;
+}
+
+div#perfil img{
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.658);
+    height: 210px;
+    width:210px;
+    display: inline-block;
+    align-items: left;
+    margin-left: 20px;
+}
+
+div#nome {
+    width: 50%;
+
+}
